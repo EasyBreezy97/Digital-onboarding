@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #033156;
+  white-space: pre-line;
+  text-align: center;
+  line-height: 44px;
+  margin-top: 5px;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  opacity: 0.75;
+  font-size: 16px;
+  font-weight: 500;
+  color: #506b80;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.passbase {
+  margin: 30px 40px;
+  height: 25px;
+}
