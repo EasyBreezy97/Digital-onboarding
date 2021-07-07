@@ -1,8 +1,18 @@
+# Instructions to run locally
+
+You must have node.js installed locally. if you dont have it install form [here](https://nodejs.org/en/download/)
+
+on the project directory run **npm install**
+
+and then run **npm start**
+
 ![alt text](https://i.imgur.com/cOj85Lg.jpg "Passbase Header")
+
+
 
 # Official Passbase React Web Demo App
 
-This App shows an example integration of the Passbase React package integrated into an App. Before your try to run the App please sign up on our [developer platform](https://app.passbase.com/signup) and use **your own publishabe API key**, which you can find in the [API settings](https://app.passbase.com/settings/api) section. 
+This App shows an example integration of the Passbase React package integrated into an App. Before your try to run the App please sign up on our [developer platform](https://app.passbase.com/signup) and use **your own publishabe API key**, which you can find in the [API settings](https://app.passbase.com/settings/api) section.
 
 Please follow our integration guide in our [official developer documentation](https://docs.passbase.com/integrations/react-native) to install all dependencies first in a correct way.
 
