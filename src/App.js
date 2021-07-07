@@ -28,7 +28,7 @@ function App() {
                         referenceUserWithKey(identityAccessKey);
                         console.log(identityAccessKey);
                         // open new window when end user completes verification
-                        window.location.href = "https://passbase.com/";
+                        // window.location.href = "https://passbase.com/";
                     }}
                     onError={(errorCode) => {}}
                     onStart={() => {}}
